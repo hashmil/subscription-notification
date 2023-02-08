@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.subs.subs-notifs</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <!-- update the below 'path/to/' to the path of your app -->
+        <string>/path/to/app.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>86400</integer>
+    <key>StandardErrorPath</key>
+    <!-- update the below 'path/to/' to the path of your app -->
+    <string>/path/to/subscription-notification.error</string>
+    <key>StandardOutPath</key>
+    <!-- update the below 'path/to/' to the path of your app -->
+    <string>/path/to/subscription-notification.out</string>
+</dict>
