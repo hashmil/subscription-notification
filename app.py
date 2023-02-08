@@ -25,7 +25,7 @@ def send_email(product_list):
     msg['Subject'] = "Subscriptions expiring soon"
     body = "The following subscriptions are expiring within the next 7 days: \n\n"
     for product in product_list:
-        body += f"{product}\n"
+        body += f"- {product}\n"
     msg.attach(MIMEText(body, 'plain'))
 
     server.login(address, password)
