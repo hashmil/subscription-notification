@@ -21,7 +21,7 @@ def send_email(product, expiry_date):
     server.login(address, password)
 
     subject = f"Subscription Reminder: {product}"
-    body = f"Your {product} subscription will expire on {expiry_date}. Please renew it soon."
+    body = f"Your {product} subscription will expire on {expiry_date}.\nPlease check if you need to renew it or cancel it."
 
     msg = MIMEText(body)
     msg["Subject"] = subject
