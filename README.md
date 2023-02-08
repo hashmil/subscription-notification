@@ -4,6 +4,10 @@ A simple python script that reminds me when a subscription product is about to e
 
 I made this because I keep forgetting when I need to cancel something that I subecribed to.
 
+![Screenshot of email](https://i.imgur.com/aX5z3Yc.png)
+
+## Setup
+
 Update the `subscriptions.xlsx` file with your subscriptions and the expiry date. Run the script, and you will get an email 7 days before a product expires.
 
 Make sure to create a `config.ini` file and include:
