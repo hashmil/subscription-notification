@@ -11,7 +11,7 @@ def send_email(product, expiry_date):
 
     address = config["email"]["address"]
     password = config["email"]["password"]
-    to_address = "hashirm@gmail.com"
+    to_address = config["recipient"]["address"]
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.ehlo()
